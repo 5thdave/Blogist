@@ -1,0 +1,145 @@
+
+        * {
+            margin:0px;
+            padding:0px;
+}
+        .container {
+            border: 1px solid black;
+            display:grid;
+            grid-template-rows:1fr 10fr 1fr;
+            min-height:100%
+        }
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid black;
+            width:100%;
+            height:100px;
+        }
+        .header div {
+            border:1px solid black;
+        }
+        .logo {
+            width:100px;
+            height:50px;
+            margin-left:-20px
+        }
+        .nav{
+            width:500px;
+            height:50px
+        }
+
+        .nav form button{
+            width: 50px;
+        }
+        .cart {
+            width:100px;
+            height:50px
+        }
+        .footer {
+            border: 1px solid black;
+            width:100%;
+            height:100px
+        }
+        .main {
+            display:flex;
+            flex-direction: column;
+            border:1px solid black;
+            width:100%;
+        }
+        .ad{
+            height:50%;
+            border: 1px solid black;
+        }
+        .shopsample {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 50%;
+            border: 1px solid black
+        }
+        #shopheader {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            width:100%;
+            height:50px;
+            
+        }
+        #shop{
+            border: 1px solid black;
+            width:100px;
+            height:30px;
+            margin-left:35px;
+        }
+            
+        
+        #searcharea {
+            border: 1px solid black;
+            width:100px;
+            height:30px;
+            margin-right:55px;
+            
+        }
+        .branddisplay {
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:20px;
+            margin:10px
+        }
+        .branddisplay div{
+            border: 1px solid black;
+            width:100px;
+            height:100px;
+        }
+        
+        body{
+            background-color: beige;
+        }
+
+        input,textarea,button {
+            width: 500px;
+            padding:10px;
+            border:0px
+        }
+
+        .upload {
+            padding:10px;
+            border:1px solid rgb(163, 127, 61);
+            width: 500px;
+            margin-bottom: 10px;
+        }
+        input[type="file"] {
+            padding: 0px;
+        }
+        .post {
+            border:1px solid rgb(163, 127, 61);
+            /* padding:10px; */
+            margin-bottom: 20px;
+            width: 300px;
+        }
+
+        .post img{
+            width: 300px;
+            height: 300px
+        }
+        .item{
+            background-color: orangered;
+            padding: 20px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .items{
+            background-color: antiquewhite;
+            border: 2px solid black;
+        }
